@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+}
+.collapseDiv{
+    justify-content: flex-end;
+}
+
+
+
+
+.twosec{
+    width: 100%;
+    height: 850px;
+    background-image: url(/assets/img/h1_hero.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+     align-items: center ;
+     justify-content: center;
+
+}
+.txt {
+    display: flex;
+    position: relative;
+    gap: 15px;
+    color: #EB5C72;
+.xett{
+    position: relative;
+    top: 10px;
+    
+}
+}
+
+.comitted{
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    .help{
+        font-size: 80px;
+        color: #000000;
+    }
+    .servicesbttn{
+        font-size: 20px;
+        width: 185px;
+        height: 55px;
+        background-color: #FF2143;
+        border: none;
+        color: white;
+        margin-top: 25px;
+    }
+    
+}
+
+.textclass{
+    display: flex;
+    flex-direction: column;
+   font-size: 16px;
+
+   .applied{
+    font-size: 18px;
+   
+   }
+    
+}
+
+
+.ourbestservices{
+    width: 1005;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    .container{
+        width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+     
+      .row{
+        .committext{
+            color: $main-color;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+           div{
+            display: flex;
+            position: relative;
+            gap: 7px;
+            .line{
+                position: relative;
+                top: -7px;
+            }
+           }
+           h1{
+            font-size: 50px;
+            font-weight: bold;
+            color: $text-color;
+        }
+           
+        }
+        .rowserv{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         
+            .planning{
+                width: 300px;
+                height: 350px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                gap: 30px;
+    
+                &:hover{
+                    background-color :  #FF2143;
+                    transition:  1s ;
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+        }
+       
+      }
+    }
+    
+}
+
+
+#moreaboutservices{
+  width: 100%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(/assets/img/section_bg02.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  .container{
+   
+      .row{
+   
+  
+          .texxt{
+              color: $second-color;
+              gap: 20px;
+       
+              .moreaboutbtn{
+                  width: 300px;
+                  height: 70px;
+                  margin-top: 20px;
+               font-size: 20px;
+               border: none;
+               background-color: #FF2147;
+               color: $second-color;
+              }
+              .moreaboutbtn:hover{
+background-color:$second-color;
+color: $third-color;
+transition: 2s;
+              }
+              .headerdiv{
+               display: flex;
+               flex-direction: column;
+               align-items: start;
+          
+                  .textitem{
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      gap: 20px;
+                      font-size: 30px;
+
+                      .line{
+                          width: 100px;
+                          height: 3px;
+                          background-color: $fourth-color;
+                          margin-bottom: 20px;
+                      }
+                  }
+
+              }
+          }
+          }
+          
+  }
+
+}
+
+#featuredstudy{
+  .container{
+   background-color: #F7F7F7;
+   margin-top: 20px;
+      .row{
+              .headerdiv{
+               display: flex;
+               flex-direction: column;
+               align-items: start;
+          height: 400px;
+          justify-content: center;
+                  .textitem{
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      gap: 20px;
+                      font-size: 30px;
+
+                      .line{
+                          width: 100px;
+                          height: 3px;
+                          background-color: $fourth-color;
+                          margin-bottom: 20px;
+                      }
+}}
+.mycartselements{
+position: relative;
+  height: 600px;
+  .people{
+      width: 100%;
+     height: 400px;
+  
+  }
+  .carttexts{
+width: 80%;
+background-color:$second-color ;
+position: absolute;
+bottom: 120px;
+height: 160px;
+
+.linep{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content:start;
+  gap: 20px;
+  font-size: 20px;
+  color:  $fourth-color;
+  .line{
+      width: 40px;
+      height: 2px;
+      background-color: $fourth-color;
+      margin-bottom: 20px;
+  }
+}
+  }
+}
+}}
+}
+
+#totalsection{
+  height: 1200px;
+margin-bottom: 20px;
+padding: 30px 0px;
+  .row{
+     
+
+.totalimg{
+  background-image: url(/assets/img/section_bg04.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+display: flex;
+flex-direction: column;
+align-items: center;  
+justify-content: center;
+gap: 40px;
+
+
+i{
+  font-size: 200px;
+  color: #F04E3C;
+}
+.informdiv{
+  width: 350px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  img{
+      width: 40%;
+      height: 100%;
+     
+  }
+
+}
+}
+.demonstrators{
+background-color: $second-color;
+height: 200px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+margin: 10px;
+border: 5px solid black;
+h1{
+  font-size: 90px;
+  color: $third-color;
+}
+p{
+  font-size: 30px;
+  color: #4E627A;
+}
+}
+}
+}
